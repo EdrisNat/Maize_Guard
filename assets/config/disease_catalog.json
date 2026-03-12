@@ -1,0 +1,189 @@
+{
+  "catalogVersion": "2026.03",
+  "modelVersion": "maize_guard_field_v2",
+  "diseases": [
+    {
+      "id": "common_rust",
+      "displayName": "Common Rust",
+      "scientificName": "Puccinia sorghi",
+      "summary": "Rust pustules spread quickly in humid conditions and can weaken photosynthesis if ignored.",
+      "severity": "medium",
+      "labelAliases": ["common rust", "common_rust"],
+      "symptoms": [
+        "Small cinnamon-brown raised pustules on both leaf surfaces.",
+        "Scattered spots become denser as humidity stays high.",
+        "Older leaves are usually affected first."
+      ],
+      "management": [
+        "Monitor disease pressure across several plants before spraying.",
+        "Use resistant seed varieties where available next season.",
+        "Consult local extension guidance if disease reaches upper leaves early."
+      ],
+      "prevention": [
+        "Avoid continuous maize cropping in the same plot.",
+        "Promote field airflow with correct spacing.",
+        "Keep scouting during wet weeks."
+      ],
+      "nextSteps": [
+        "Rescan 2 more leaves from different plants.",
+        "Record whether lesions are moving toward the upper canopy.",
+        "Compare with the disease library before treatment."
+      ],
+      "rescanAdvice": "Capture a bright close-up from the middle of the leaf where pustules are visible.",
+      "escalateWhen": "Escalate if rust reaches the top leaves before tasseling or spreads fast after rain.",
+      "lowLiteracyTip": "Brown raised spots mean you should check more plants before spraying."
+    },
+    {
+      "id": "gray_leaf_spot",
+      "displayName": "Gray Leaf Spot",
+      "scientificName": "Cercospora zeae-maydis",
+      "summary": "Gray leaf spot forms narrow rectangular lesions that can merge and dry leaves prematurely.",
+      "severity": "high",
+      "labelAliases": ["gray leaf spot", "gray_leaf_spot"],
+      "symptoms": [
+        "Long rectangular gray or tan lesions following leaf veins.",
+        "Lesions may join together and cause blighting.",
+        "Disease is more intense in warm, humid fields."
+      ],
+      "management": [
+        "Prioritize early scouting when humidity remains high.",
+        "Use residue and rotation management to reduce inoculum.",
+        "Seek expert advice if upper canopy infection is visible before grain fill."
+      ],
+      "prevention": [
+        "Rotate with non-host crops.",
+        "Manage crop residue where appropriate.",
+        "Choose tolerant varieties in hotspot areas."
+      ],
+      "nextSteps": [
+        "Inspect the lower and middle canopy for similar rectangular lesions.",
+        "Note moisture conditions in the field journal.",
+        "Repeat scanning after 3-5 days if symptoms are spreading."
+      ],
+      "rescanAdvice": "Frame one clear lesion band and avoid shadows across the leaf.",
+      "escalateWhen": "Escalate if lesions are numerous in the upper canopy or leaves are drying rapidly.",
+      "lowLiteracyTip": "Long gray blocks on the leaf can mean strong disease pressure."
+    },
+    {
+      "id": "healthy",
+      "displayName": "Healthy",
+      "summary": "The sampled leaf does not show strong signs of the trained disease classes.",
+      "severity": "low",
+      "labelAliases": ["healthy"],
+      "symptoms": [
+        "Leaf color looks even.",
+        "No strong lesion pattern is visible.",
+        "No major disease cues detected by the model."
+      ],
+      "management": [
+        "Continue weekly scouting.",
+        "Check other plants if the field still looks stressed.",
+        "Keep irrigation and nutrition records up to date."
+      ],
+      "prevention": [
+        "Maintain routine crop monitoring.",
+        "Keep field hygiene and weed control strong.",
+        "Watch for sudden changes after wet weather."
+      ],
+      "nextSteps": [
+        "Scan another plant if nearby leaves look different.",
+        "Use the field journal to record healthy checkpoints.",
+        "Return to the dashboard for trend tracking."
+      ],
+      "rescanAdvice": "If the field still looks stressed, scan a leaf with the clearest visible symptoms.",
+      "escalateWhen": "Escalate only if many plants show stress that the app cannot classify clearly.",
+      "lowLiteracyTip": "This leaf looks okay, but still check other plants in the field."
+    },
+    {
+      "id": "maize_lethal_necrosis",
+      "displayName": "Maize Lethal Necrosis",
+      "summary": "This is a high-risk disease complex that can severely reduce yield and needs urgent field attention.",
+      "severity": "critical",
+      "labelAliases": ["maize lethal necrosis", "maize_lethal_necrosis"],
+      "symptoms": [
+        "Chlorotic mottling and necrotic streaking on leaves.",
+        "Plants may become stunted or fail to fill grain.",
+        "Field patches can worsen quickly."
+      ],
+      "management": [
+        "Isolate heavily affected plants where practical.",
+        "Control insect vectors and remove volunteer maize.",
+        "Contact extension support urgently for field-wide advice."
+      ],
+      "prevention": [
+        "Use clean seed and certified sources.",
+        "Reduce vector pressure early in the season.",
+        "Destroy volunteer hosts around the field."
+      ],
+      "nextSteps": [
+        "Scan more plants around the affected patch.",
+        "Mark the field area in the journal.",
+        "Seek urgent extension guidance."
+      ],
+      "rescanAdvice": "Capture a full leaf with visible streaking and one closer image of the lesion pattern.",
+      "escalateWhen": "Escalate immediately when several plants show similar symptoms in one area.",
+      "lowLiteracyTip": "If many leaves show yellow and dead streaks, ask an expert quickly."
+    },
+    {
+      "id": "maize_streak_virus",
+      "displayName": "Maize Streak Virus",
+      "summary": "Fine chlorotic streaks can signal viral infection spread by leafhoppers, especially in young plants.",
+      "severity": "high",
+      "labelAliases": ["maize streak virus", "maize_streak_virus"],
+      "symptoms": [
+        "Fine yellow streaks running along the leaf.",
+        "Stunting is more serious in young maize.",
+        "Symptoms may appear uneven across the field."
+      ],
+      "management": [
+        "Rogue badly infected plants where feasible.",
+        "Reduce vector pressure and alternate hosts.",
+        "Check planting timing and nearby grassy weeds."
+      ],
+      "prevention": [
+        "Control grassy hosts around the field.",
+        "Plant tolerant varieties where available.",
+        "Scout early growth stages closely."
+      ],
+      "nextSteps": [
+        "Compare symptoms across young and older plants.",
+        "Record any leafhopper pressure in notes.",
+        "Rescan after improving image clarity if streaks are faint."
+      ],
+      "rescanAdvice": "Use bright natural light and keep the streaks centered in the frame.",
+      "escalateWhen": "Escalate if young plants are heavily stunted or symptoms are spreading quickly.",
+      "lowLiteracyTip": "Thin yellow lines on many young leaves can mean virus risk."
+    },
+    {
+      "id": "northern_leaf_blight",
+      "displayName": "Northern Leaf Blight",
+      "scientificName": "Exserohilum turcicum",
+      "summary": "Large cigar-shaped lesions can expand fast and reduce grain filling when disease pressure is high.",
+      "severity": "high",
+      "labelAliases": ["northern leaf blight", "northern_leaf_blight"],
+      "symptoms": [
+        "Long gray-green cigar-shaped lesions.",
+        "Lesions may enlarge and merge under wet conditions.",
+        "Disease often starts on lower leaves before moving upward."
+      ],
+      "management": [
+        "Track whether lesions are moving to the upper canopy.",
+        "Use resistant varieties in future seasons.",
+        "Seek agronomy advice if pressure is high before tasseling."
+      ],
+      "prevention": [
+        "Rotate crops and manage residue.",
+        "Avoid susceptible varieties in hotspot regions.",
+        "Scout after cool, wet periods."
+      ],
+      "nextSteps": [
+        "Scan multiple leaves from different plants.",
+        "Document lesion size and spread in the journal.",
+        "Review prevention steps in the disease library."
+      ],
+      "rescanAdvice": "Take one image showing the full lesion shape and one closer image with clear edges.",
+      "escalateWhen": "Escalate if lesions are large, numerous, and already reaching the upper canopy.",
+      "lowLiteracyTip": "Big cigar-shaped marks can mean a serious blight problem."
+    }
+  ]
+}

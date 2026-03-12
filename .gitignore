@@ -1,0 +1,60 @@
+# Build outputs
+/build/
+/android/.gradle/
+/android/.kotlin/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Generated Dart and Flutter files
+/.dart_tool/
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.packages
+/.pub/
+/.appdata/
+/coverage/
+/lib/generated_plugin_registrant.dart
+
+# iOS generated files
+/ios/Flutter/.last_build_id
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/ephemeral/
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+
+# Android generated files
+/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+/android/local.properties
+
+# Project folders you asked to exclude from GitHub
+/docs/
+/notebooks/
+
+# IDE and editor settings
+/.idea/
+/.vscode/
+*.iml
+
+# OS, logs, and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.*
+*.local
+
+# Xcode user data
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/xcuserdata/
